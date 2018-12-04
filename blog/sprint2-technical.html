@@ -23,8 +23,19 @@
           <li><a href="../aboutme.html"><h2>About Me</h2></a></li>
         </ul>
 <div id="main">
-        <h1>What are the best practices associated with using classes vs. IDs</h1>
-        <p>Before diving into the best practices between using classes and IDs, it is important to understand the difference between the two. </p>
+        <h1>Best practices associated with using classes vs. IDs</h1>
+        <p>Before diving into the best practices between using classes and IDs, it is important to understand the difference between the two. 
+        A lot of us know about basic tags such as <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>, but the basic set of tags arent always going to cover everything. This is where IDs and Classes come in. In this instance we are talking about how they interact with CSS, but these are also used by other languages like Javascript.<br> The big thing to remember about these two are that ID's are unique, while classes are not. Each element can only have a single ID, and each page can only have one element with that particular ID. Classes can be used on multiple elements, and multiple classes can be applied to the same element.<br> Its worth noting that elements can have both an ID <b>AND</b> Classes assigned to it. Now onto some best practices.<br><br>
+        
+        <h3>Stay Classy in CSS</h3>
+        <p>ID's are for uniquely identifying elements. They should be only used when specifically required. IDs also have a much higher specificity than Classes, which can sometimes cause issues within your HTML if you start trying to overwrite IDs with Classes.</p><br><br>
+
+        <h3>Keep it simple, keep it functional!</h3>
+        <p>Overdoing it with IDs or Classes is a great way to make things more complex than they need to be. Trying to find the one line thats misbehaving is less than ideal at any point in a project. Below you can see an example of a Class thats been added to an anchor element. This is counterproductive, as not only do we know its a link already, butr we can already apply styling via its tag.</p><br>
+        <img src="Classlink.jpg" alt="What have we here?"><br><br>
+        <h3>Naming: The long and short of it</h3>
+        <p>When it comes to naming your IDs or Classes, make sure its going to be something that doesnt stump you in the future. Trying to remember what .greenthing or #other is in 6 months time isn't going to be fun, and if anyone else is reviewing the code or project, they probably wont be having a great time deciphering it!
+        </p>
 </div>        
     </body>
 </html>

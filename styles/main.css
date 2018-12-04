@@ -21,10 +21,16 @@ h2 {
     font-size: 90%;
 }
 
+h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+}
+
 p {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    max-width: 66ch;
     line-height: 1;
 }
 
