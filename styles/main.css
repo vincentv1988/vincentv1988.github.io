@@ -35,3 +35,7 @@ ul.navbar {
     width: 9em;
     font-family: 'Open Sans', sans-serif;
 }
+
+#main {
+    width: 75%;
+}
